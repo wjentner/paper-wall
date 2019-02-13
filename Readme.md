@@ -1,4 +1,4 @@
-# Paper download and merge script
+# Paper Wall
 
 Just my first steps playing around with go.
 
