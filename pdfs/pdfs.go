@@ -1,7 +1,6 @@
 package pdfs
 
 import (
-	"github.com/hhrutter/pdfcpu/pkg/pdfcpu"
 	"io/ioutil"
 	"log"
 	"os"
@@ -30,8 +29,6 @@ func (pdfs pdfs) SplitAndMerge() error {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	pdfcpu.SPLIT
 
 	pdfWriter := pdf.NewPdfWriter()
 

@@ -17,7 +17,7 @@ func main() {
 
 	d := oop.New("https://bib.dbvis.de/publications/index/home/filterByYear=", year, outputFolder)
 	d.DownloadPapers()
-	//
+
 	p := pdfs.New(outputFolder, pdfFile)
 	p.SplitAndMerge()
 }
